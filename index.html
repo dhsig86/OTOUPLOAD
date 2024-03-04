@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload de Fotos de Otoscopia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Upload de Fotos de Otoscopia</h1>
+    <div class="upload-instructions">
+        <p>Por favor, siga as instruções abaixo para o upload das fotos de otoscopia digital.</p>
+    </div>
+    
+    <div class="upload-area">
+        <button id="upload_widget" class="btn">Upload de Fotos</button>
+    </div>
+    
+    <div class="terms">
+        <input type="checkbox" id="consent">
+        <label for="consent">Eu concordo com o termo de consentimento.</label>
+    </div>
+    
+    <div class="ai-consent">
+        <input type="checkbox" id="ai_consent">
+        <label for="ai_consent">Aceito o envio das fotos para treinamento de AI.</label>
+    </div>
+    
+    <div class="thumbnail-gallery" id="thumbnail-gallery">
+        <!-- Miniaturas das fotos mais recentes serão exibidas aqui -->
+    </div>
+    
+    <div class="footer">
+        <a href="https://collection.cloudinary.com/dzfsjokbo/df316ec76bbe429e4a3ac147f5ae846f" class="btn">Ver Repositório Completo</a>
+    </div>
+</div>
+
+<script src="https://widget.cloudinary.com/v2.0/global/all.js" type="text/javascript"></script>
+<script src="script.js" type="text/javascript"></script>
+
+</body>
+</html>
